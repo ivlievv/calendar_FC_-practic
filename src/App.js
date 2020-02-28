@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.scss';
 
-
 function App () {
   return (
     <div className="container">
@@ -24,7 +23,7 @@ function App () {
       </div>
       <div className="calendarContainer">
 
-        <div className="oneWeek">
+        <div className="week">
           <span className="data">1</span>
           <span className="data">2</span>
           <span className="data">3</span>
@@ -33,7 +32,7 @@ function App () {
           <span className="data">6</span>
           <span className="data">7</span>
         </div>
-        <div className="twoWeek">
+        <div className="week">
           <span className="data">8</span>
           <span className="data">9</span>
           <span className="data">10</span>
@@ -42,7 +41,7 @@ function App () {
           <span className="data">13</span>
           <span className="data">14</span>
         </div>
-        <div className="threeWeek">
+        <div className="week">
           <span className="data">15</span>
           <span className="data">16</span>
           <span className="data">17</span>
@@ -51,7 +50,7 @@ function App () {
           <span className="data">19</span>
           <span className="data">20</span>
         </div>
-        <div className="fourWeek">
+        <div className="week">
           <span className="data">21</span>
           <span className="data">22</span>
           <span className="data">23</span>
@@ -60,7 +59,7 @@ function App () {
           <span className="data">26</span>
           <span className="data">27</span>
         </div>
-        <div className="fiveWeek">
+        <div className="week">
           <span className="data">28</span>
           <span className="data">29</span>
           <span className="data">30</span>

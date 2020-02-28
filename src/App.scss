@@ -9,6 +9,11 @@ $text-transform: uppercase;
   align-items: center;
 }
 
+.calendarWeek{
+  display: flex;
+  justify-content: space-around;
+}
+
 .header{
   width: 375px;
   height: 96px;
@@ -16,17 +21,6 @@ $text-transform: uppercase;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.flexContainer{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.calendarWeek{
-  display: flex;
-  justify-content: space-around;
 }
 
 .container{
@@ -87,23 +81,7 @@ $text-transform: uppercase;
 
 }
 
-.oneWeek{
-  @extend .calendarWeek;
-}
-
-.twoWeek{
-  @extend .calendarWeek;
-}
-
-.threeWeek{
-  @extend .calendarWeek;
-}
-
-.fourWeek{
-  @extend .calendarWeek;
-}
-
-.fiveWeek{
+.week{
   @extend .calendarWeek;
 }
 
